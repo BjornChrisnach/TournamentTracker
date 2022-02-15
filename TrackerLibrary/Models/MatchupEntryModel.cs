@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class MatchupEntryModel
     {
@@ -24,15 +24,10 @@ namespace TrackerLibrary
         /// </summary>
         public MatchupModel ParentMatchup { get; set; }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="initialScore">
-        /// 
-        /// </param>
-        public MatchupEntryModel(double initialScore)
-        {
-            Console.WriteLine();
-        }
+        //public MatchupEntryModel(double initialScore)
+        //{
+        //    Console.WriteLine();
+        //}
+
     }
 }
