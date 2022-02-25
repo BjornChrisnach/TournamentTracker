@@ -21,5 +21,12 @@ namespace TrackerLibrary.Models
         
         public String CellphoneNumber { get; set; }
 
+        public string FullName
+        {
+            get
+            {
+                return $"{ FirstName } { LastName }";
+            }
+        }
     }
 }
