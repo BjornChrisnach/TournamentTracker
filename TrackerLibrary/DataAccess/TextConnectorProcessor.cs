@@ -148,5 +148,23 @@ namespace TrackerLibrary.DataAccess.TextHelpers
             return output;
         }
 
+        //public static List<TournamentModel> ConvertToTournamentModels(this List<string> lines)
+        //{
+        //    List<TournamentModel> output = new List<TournamentModel>();
+
+        //    foreach (string line in lines)
+        //    {
+        //        string[] cols = line.Split(',');
+
+        //        TournamentModel t = new TournamentModel();
+        //        t.Id = int.Parse(cols[0]);
+        //        t.TournamentName = cols[1];
+        //        t.EntryFee = int.Parse(cols[2]);
+
+        //        output.Add(t);
+        //    }
+        //    return output;
+        //}
+
     }
 }
