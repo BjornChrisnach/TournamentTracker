@@ -8,11 +8,18 @@ namespace TrackerLibrary.Models
 {
     public class TeamModel
     {
-        // default uninitialized List, so add = new List<Person>();
-        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
+        /// <summary>
+        /// The unique identifier for the team
+        /// </summary>
+        public int Id { get; set; }
+
         public string TeamName { get; set; }
 
-        // Since c# 6.0, you can do it with the property and not more in the constructor
+        // default uninitialized List, so add = new List<Person>();
+        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
+
+        // Since c# 6.0, you can do it with the property and you don(t need to do it
+        // in the constructor
         //public TeamModel()
         //{
         //    TeamMembers = new List<Person>();
